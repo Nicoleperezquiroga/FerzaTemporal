@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', sans-serif I !important;
+      /* Marca Ferza */
+  --ferza-cream: #F8EBDE;
+  --ferza-gold: #C7A15A;
+  --ferza-black: #151515;
+
+  /* Colección Floripia */
+  --floripia-bg: #F7F2EE;
+  --floripia-accent: #B98782;
+  --floripia-text: #4A4543;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+
+

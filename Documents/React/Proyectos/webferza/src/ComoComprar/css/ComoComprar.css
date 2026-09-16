@@ -1,0 +1,142 @@
+.contenido {
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    width: 100%;
+    box-sizing: border-box;
+     font-family: 'Cormorant Garamond', serif !important;
+}
+
+.Subtitulo {
+    color: #786049 !important;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.Indicaciones {
+    width: 100%;
+    max-width: 60rem;
+    box-sizing: border-box;
+}
+
+.ComponenteIndicacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin: 2%;
+    padding: 2%;
+    box-sizing: border-box;
+
+    background: #e1d4c66b;
+    border-radius: 15px;
+
+    /* Sombra */
+    box-shadow: 0 6px 15px rgba(80, 60, 45, 0.18);
+}
+
+.Numeracion {
+    margin: 1%;
+    color: #786049 !important;
+    font-size: 5rem !important;
+    flex-shrink: 0;
+}
+
+.IconoPunto {
+    margin: 1%;
+    color: #7860499f !important;
+    font-size: 5rem !important;
+    flex-shrink: 0;
+}
+
+.Texto {
+    color: #2c231b !important;
+    min-width: 0;
+}
+
+.TituloTexto {
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.02em;
+    color: #33261a !important;
+    margin: 0;
+    padding-bottom: 0.3rem !important;
+}
+
+.Detalle {
+    font-size: 1.2rem !important;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #33261a !important;
+    max-width: 22rem;
+    text-align: left;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+
+    .contenido {
+        padding: 1.5rem 1rem;
+    }
+
+    .Subtitulo {
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .Indicaciones {
+        width: 100%;
+    }
+
+    .ComponenteIndicacion {
+        width: 100%;
+        margin: 1rem 0;
+        padding: 1rem;
+        box-sizing: border-box;
+
+        border-radius: 12px;
+
+        box-shadow: 0 5px 12px rgba(80, 60, 45, 0.18);
+
+        /* importante */
+        gap: 0.5rem;
+    }
+
+    .Numeracion {
+        font-size: 3rem !important;
+        margin: 0.3rem !important;
+        flex-shrink: 0;
+    }
+
+    .IconoPunto {
+        font-size: 3rem !important;
+        margin: 0.3rem !important;
+        flex-shrink: 0;
+    }
+
+    .Texto {
+        min-width: 0;
+        flex: 1;
+    }
+
+    .TituloTexto {
+        font-size: 1.1rem !important;
+        line-height: 1.15;
+        padding-bottom: 0.3rem !important;
+        margin: 0;
+    }
+
+    .Detalle {
+        font-size: 0.9rem;
+        line-height: 1.3;
+        max-width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+}

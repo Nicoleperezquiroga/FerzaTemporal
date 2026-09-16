@@ -1,0 +1,53 @@
+.inicio-mensaje {
+    font-size: 1rem;
+    color: #9b7d46;
+}
+
+.inicio-opciones {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform .5s ease, filter .5s ease;
+
+}
+
+.inicio-opciones .img-opciones:hover img {
+    filter: brightness(88%);
+}
+
+.img-opciones {
+    margin-right: 1%;
+}
+
+.primera-imagen{
+    margin-left: 1%;
+}
+
+.inicio-historia {
+    min-width: 3rem;
+    min-height: 3rem;
+    background-color: #d45725;
+}
+
+.inicio-compra {
+    min-width: 3rem;
+    min-height: 3rem;
+    background-color: #f3efed;
+}
+
+/* Pantallas menores a 768px */
+@media (max-width: 768px) {
+    .inicio-opciones {
+    flex-direction: column !important;
+    }
+    .img-opciones {
+    margin-bottom: 1%;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+}

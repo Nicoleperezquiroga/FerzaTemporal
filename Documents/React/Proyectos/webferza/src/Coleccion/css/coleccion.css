@@ -1,0 +1,73 @@
+.fondoColeccion {
+  width: 100%;
+  background-color: rgb(242, 242, 242);
+}
+
+
+.padding-coleccion {
+  padding: 2%;
+}
+
+
+.encabezado-floripia {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.tamaño-titulo1 {
+  color: #C7A15A;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.35rem;
+  text-transform: uppercase;
+  font-family: 'Cormorant Garamond', serif !important;
+
+}
+
+.tamaño-titulo2 {
+  color: #4A4543;
+  font-size: 4rem;
+  font-weight: 800;
+  font-family: 'Cormorant Garamond', serif !important;
+
+}
+
+.iconoFloripia {
+  font-size: 2rem !important;
+  color: #C7A15A;
+}
+
+.tamaño-card {
+    width: 100%;
+    height: 100%;
+}
+
+.tamaño-imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.fondo {
+    min-height: 6rem;
+    box-sizing: border-box;
+}
+
+
+.nombreProducto {
+  font-weight: 800 !important;
+  font-size: 1.5rem !important;
+  color: #403936 !important;
+  font-family: 'Cormorant Garamond', serif !important;
+
+
+}
+
+.valorProducto {
+  font-size: 1.3rem !important;
+  font-weight: 800 !important;
+  color: #8A6738 !important;
+  font-family: 'Cormorant Garamond', serif !important;
+
+}
